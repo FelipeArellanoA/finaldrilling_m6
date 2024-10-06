@@ -1,0 +1,35 @@
+.nav-link {
+    color: lightgray
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+body {
+    background-image: url('/static/images/autos.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.titulo-index {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.titulo-lista {
+    margin-top: 2%;
+}
+
+.formulario_vehiculo {
+    padding: 5%;
+    background-color: lightseagreen
+}
+
+.titulo_formulario {
+    text-align: center;
+    margin-top: 2%;
+}

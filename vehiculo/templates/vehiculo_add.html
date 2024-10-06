@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="form-main">
+    <h4 class="titulo_formulario">Agregar vehículo</h4>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-4">
+                <form action="" method="POST" class="formulario_vehiculo">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <input type="submit" value="Enviar" class="btn btn-light">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
